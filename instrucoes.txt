@@ -1,0 +1,14 @@
+Este repositório contém os dados colhidos nos experimentos para o desenvolvimento da dissertação.
+
+Nas pastas Cenarios_Bluetooth, Cenarios_EspNow e Cenarios_WiFi contém as planilhas com os dados colhidos. Todas elas estão orgabizadas da mesma forma. 
+
+Dentro delas encontrará 8 planilhas com o seginte nome:  planilha leituras cenário..........
+Nelas estão as leituras de cada um dos Esp32, em cada um dos cenários, também se encontram os cálculos para a matriz estocástica de Markov e o MTTF.
+
+Também existe  a planilha grafico barras markov....., contém as tabelas utilizadas para gerar os gráficos de barras de Markov.
+
+E existe também 8 pastas com os nomes dos cenários que contém os scripts em R para gerar o Desvio padrão e seus gráficos e o estimador de Kaplan-Meier.
+ 
+
+Nas pastas que estão na raiz Canarios_50m_WiFi_EspNow_ graficosKM e Cenarios_8m_WiFi_EspNow_Bluetooth_graficosKM, contem os scripts que geraram o gráfico de 
+sobrevida e Kaplam-Meier com as comparações entre os cenários.
